@@ -1,2 +1,2 @@
 # ox-kakoune
-Port of Ox theme with some changes
+Port of [Ox](https://github.com/curlpipe/ox) with some changes
