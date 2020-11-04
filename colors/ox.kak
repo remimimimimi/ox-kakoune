@@ -10,6 +10,7 @@ declare-option str cyan 'rgb:28c6e8' #
 declare-option str green 'rgb:27de91' #
 declare-option str purple 'rgb:864ce8' #
 declare-option str light_purple 'rgb:7171a9' #
+declare-option str deep_purple 'rgb:df34f9' #
 declare-option str red 'rgb:ff0000' #
 
 declare-option str background %opt{black}
@@ -20,16 +21,16 @@ declare-option str foreground %opt{white}
 # https://github.com/mawww/kakoune/blob/master/colors/default.kak
 # For code
 set-face global value "%opt{cyan}"
-set-face global type "%opt{purple}"
+set-face global type "%opt{blue}"
 set-face global variable "%opt{white}"
-set-face global module "%opt{white}+i"
-set-face global function "%opt{blue}"
+set-face global module "%opt{cyan}+i"
+set-face global function "%opt{white}"
 set-face global string "%opt{green}"
 set-face global keyword "%opt{purple}"
-set-face global operator "%opt{cyan}"
-set-face global attribute "%opt{cyan}"
+set-face global operator "%opt{blue}"
+set-face global attribute "%opt{purple}"
 set-face global comment "%opt{light_purple}+i"
-set-face global meta "%opt{cyan}+i"
+set-face global meta "%opt{deep_purple}"
 set-face global builtin "%opt{white}"
 
 # For markup
@@ -69,4 +70,3 @@ set-face global MatchingChar "+b"
 set-face global Whitespace "%opt{cyan},%opt{black}+f"
 set-face global WrapMarker Whitespace
 set-face global BufferPadding "%opt{black},%opt{black}"
-
